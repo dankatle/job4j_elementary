@@ -28,8 +28,8 @@ public class FindLoopTest {
         int[] data = {5, 4, 3, 2};
         int el = 10;
         int result = FindLoop.indexOf(data, el);
-        int expected = 0;
-        assertNotEquals(expected, result);
+        int expected = -1;
+        assertEquals(expected, result);
     }
 
     @Test
