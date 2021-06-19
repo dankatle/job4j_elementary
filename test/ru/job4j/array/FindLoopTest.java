@@ -29,6 +29,6 @@ public class FindLoopTest {
         int el = 10;
         int result = FindLoop.indexOf(data, el);
         int expected = 0;
-        assertEquals(expected, result);
+        assertNotEquals(expected, result);
     }
 }
